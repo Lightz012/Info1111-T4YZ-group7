@@ -1,0 +1,35 @@
+\documentclass[a4paper, 12pt]{article}
+
+% 加载基础包
+\usepackage[T1]{fontenc}  % 处理字体编码
+\usepackage[utf8]{inputenc}  % 处理 UTF-8 输入
+\usepackage{graphicx}  % 处理图片
+\usepackage{amsmath}   % 数学公式支持
+
+\title{My First LaTeX Document}
+\author{John Doe}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This is a test document to check if LaTeX is working properly in VS Code.
+
+\section{Mathematics}
+Here is an example of a mathematical equation:
+\begin{equation}
+    E = mc^2
+\end{equation}
+
+\section{Image Example}
+Below is an example of how to include an image:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{example-image} % 这里的 "example-image" 是 LaTeX 自带的示例图片
+    \caption{An example image}
+    \label{fig:example}
+\end{figure}
+
+\end{document}
